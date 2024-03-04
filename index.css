@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h3{
+    color: #b92b27;
+}
+#login{
+    background-color: white;
+}
+#signup{
+    background-color: #b92b27;
+}
+ div > input {
+    background-color: darkgrey;
+
+}
+
+input[type="text"]{
+    color: blue;
+}
+
+input[type="password"]{
+    color: blueviolet;
+}
+
+input[type]{
+    background-color: gainsboro;
+}
+
+#myid p{
+    color: green;
+}
