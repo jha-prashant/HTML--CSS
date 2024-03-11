@@ -1,0 +1,45 @@
+.box{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(190, 10, 121);
+    animation-name: colanimation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in;
+    transition-delay: 2s;
+    animation-iteration-count: 3;
+    animation-direction: normal;
+
+}
+
+@keyframes fontanimation {
+    from{font-size: 20px;}
+    to{font-size: 50px;}
+}
+@keyframes coloranimation{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: blue;
+    }
+}
+
+@keyframes widthanimation{
+    from{
+        width: 10px;
+    }
+    from{
+        width: 600px;
+    }
+}
+@keyframes colanimation{
+    0%{
+        background-color: brown;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: chartreuse;
+    }
+}

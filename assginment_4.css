@@ -1,0 +1,41 @@
+#box1{
+    width: 100px;
+    height: 100px;
+    background: greenyellow;
+    transition: width 2s ease-in 0.5s;
+
+}
+#box1:hover{
+    width: 600px;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background: rgb(173, 69, 69);
+    transform: translate(200px,200px) rotate(45deg);
+}
+
+#box3{
+    height: 100px;
+    width: 100px;
+    background: rgb(47, 47, 194);
+    transform: skewX(20deg);
+}
+
+#box4{
+    width: 100px;
+    height: 100px;
+    background: rgb(241, 189, 43);
+    box-shadow: 2px 2px 5px green;
+}
+
+#my pic{
+    height: 100px;
+    width: 100px;
+    background: light pink;
+    background-image: url("my pic11.jpg");
+    background-size: cover;
+    opacity: 10%;
+
+}
